@@ -1,0 +1,845 @@
+/* complete body of the web page/ code that affect all the properties */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+    align-items: center;
+}
+/* navbar section of the page */
+.springBoard_container,.head{
+    background-color: rgb(2, 20, 2);
+}
+.head{
+    position: relative;
+    left: 0;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.head_flex{
+    position: relative;
+    right: 20px;
+    top: 0;
+    gap: 0.4rem;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    font-size: 15px;
+}
+.head_flex div >a{
+    margin: 20px;
+    color: whitesmoke;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.navi{
+    font-size: 0.8rem;
+}
+.navi:visited{
+    color: whitesmoke;
+    opacity: 0.5;
+}
+.navi:active{
+    color: whitesmoke;
+   
+}
+img[ src="spurtx_main_img/spurt_logo.svg"]{
+    height: 5rem;
+    width: 14rem;
+    margin-right: 50px;
+    position: relative;
+    top: 1rem;
+    left: 8px;
+    right: 50px;
+}
+.head_login{
+    height: 38px;
+    position: relative;
+    right: 0.5rem;
+    top: 1rem;
+    text-align: center;
+    width: 115px;
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: whitesmoke;
+    border: 2px solid transparent;
+    background: linear-gradient(black, black) padding-box;
+    background: linear-gradient(to bottom right, green,orange ) border-box;
+    border-radius: 10px;
+
+}
+.head_login > a{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: black;
+    padding: 8px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.head_login a:visited{
+    color: white;
+}
+.toggle-menu{
+    visibility: hidden;
+}
+/* section1/africa flag section */
+
+.springBoard{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.title_sb{
+    font-size: 45px;
+    width: 45vw;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    transition: 2s;
+    transform-origin: left;
+    transform: scaleX(1);
+    
+}
+.map{
+    position: relative;
+    left: 6rem;
+  
+}
+img[ src="spurtx_main_img/home_hero_section.svg"]{
+    height: 70vh;
+    width: 45vw;
+   
+}
+.africa_text{
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.springBoard_subsec_btn{
+    height: 45px;
+    width: 260px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    padding-top:  10px;;
+    background: linear-gradient(to right, green,orange ) border-box;
+}
+.springBoard_subsec_btn > a{
+    text-decoration: none;   
+}
+.springBoard_subsec_btn > a:visited{
+    color: white;
+}
+/* logos section of section1 */
+.busi_emp_int_logos{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+.logo_container{
+    text-align: center;
+    height: 14rem;
+    width: 13rem;
+}
+.logo_img{
+    padding-top: 2rem;
+    width: 12rempx;
+    height: 7rem;
+    border-bottom-right-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-bottom: 15px;
+}
+.logos_text{
+    text-align: left;
+    font-size:  15px; 
+    margin-bottom: 20px;
+}
+.learn_more{
+    text-align: left;
+   
+}
+.learn_more :visited{
+    color: linear-gradient(to right, green,orange );
+}
+.learn_more a[href=""]{
+    text-decoration: none;
+    font-size: 15px;
+    background-image: linear-gradient(to right, green,orange );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.busi_emp_int_logos{
+    margin-bottom: 100px;
+}
+/* section 2 optimise section */
+.great_talent{
+    margin-top: 120px;
+    text-align: center;
+    
+}
+.optimise_title{
+    font-size: 28px;
+    background-image: linear-gradient(to right, green,orange );
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+.title_sub{
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+.talent_text_motiv{
+   margin-top: 80px;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.talent_text_motiv_sub{
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.find_talents{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+img[alt="img_1"]{
+    height: 55vh;
+    width: 40vw;
+    border-radius: 10px;
+}
+.get_started{
+    text-align: left;
+}
+.get_started >a{
+    background-image: linear-gradient(to right, green,orange );
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+}
+.get_started >a:visited{
+    background-image: linear-gradient(to right, green,orange );
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+    
+}
+.talent_text >hr{
+    width: 130px;
+    height: 3px;
+    border: none;
+    margin-top: 5px;
+    background-image: linear-gradient(to right, rgb(4, 76, 4),rgb(144, 94, 3) );
+    -webkit-background-clip: line;
+    color: transparent;
+    margin-bottom: 10px;
+}
+.demo_btn{
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.btn{
+    height: 43px;
+    width: 180px;
+    padding: 11px 15px 5px ;
+    text-align: center;
+    margin-left: 42.5vw;
+    color: white;
+    background-image: linear-gradient(to right, green,orange );
+    border-radius: 30px;
+
+}
+/* section 3 embrace */
+.embrace_the_future{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.embrace_the_future >hr{
+    margin:auto;
+    position: relative;
+    z-index: -1;
+    font-size: large;
+    top: 50px;
+    width: 62vw;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px;
+    border-color: darkgreen;
+    height: 3px;
+    border-style: dashed;
+}
+
+.embrace_flex_container{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    
+}
+
+.embrace_head{
+    margin-bottom: 50px;
+}
+.circular_img{
+    font-size: 35px;
+    color: darkorange;
+    padding-top: 32px;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid darkgreen;
+    background-color: rgb(2, 38, 2);
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px){
+   body{
+    box-sizing: border-box;
+   }
+    .optimise_save{
+        margin: 2rem;
+    }
+    .toggle-img{
+       font-size: 2.5rem;
+       color: green;
+    }       
+    .toggle-menu{
+        visibility: visible;
+        position: absolute;
+        right: 2rem;
+        top: 1.9rem;
+        background-color: transparent;
+        border: none;
+    }
+    .head_flex{
+        visibility: hidden;
+    }
+    .head_login{
+        visibility: hidden;
+    }
+    .head_logo{
+        width: 45rem;
+    }
+    img[alt="logo_img"]{
+        width: 12rem;
+
+
+    }
+    .title_sb{
+        margin-left: 2.2rem;
+        justify-content: center;
+        font-size: 28px;
+        width: 100%;
+    }
+    .springBoard_subsec{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    .springBoard_subsec_btn{
+        margin-right: 5rem;
+    }
+    .map{
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+    .africa_text{
+        font-size: 15px;
+    }
+    .busi_emp_int_logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .find_talents{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    .find_talents2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    img[alt="img_1"]{
+        width: 80vw;
+        height: 40vh;
+        border-radius: 2.5rem;
+    }
+    .title_sub{
+        margin-bottom: -2rem;
+    }
+    .demo_btn{
+        position: relative;
+        right: 6rem;
+    }
+    .btn{
+        border-radius: 20rem;
+    }
+    .embrace_flex_container{
+        width: 250vw;
+        overflow-x: scroll;
+    }
+    .page-line{
+        visibility: hidden ;
+    }
+    .first_sec_container, .sec_sec_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid_container{
+        grid-gap: 2px;
+        grid-template-columns: auto auto;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+                "help startup"
+                "management lauching";
+    }
+    .help_execution{
+       grid-area: help;
+    }
+    .build_startup{
+        grid-area: startup;
+    }
+    .project_management{
+        grid-area: management;
+    }
+    .lauching_project{
+        grid-area: lauching;
+
+    } 
+    .read_write{
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        margin: 10px;
+    }
+    .foot_part{
+        overflow: visible;
+    }
+
+    .spurtx_logo_container{
+        overflow: visible;
+        position: relative;
+        right: 2rem;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .spurtx_logo_text{
+        overflow: visible;
+        width: 100%;
+        position: relative;
+        right: 2rem;
+        display: flex;
+        flex-direction: row;
+        font-size: 0.8rem;
+    }
+    
+    .spurtx_text{
+        opacity: 0.84;
+        margin-right: 4rem;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    img[src="spurtx_main_img/spurt_logo.svg"]{
+        position: relative;
+        left: 1.5rem;
+        margin-bottom: 20px;
+        width: 15rem;
+        display: block;
+       align-self: center;
+    }
+    .media-table{
+        visibility: visible;
+    }
+    .reserved_text{
+        visibility: hidden;
+    }
+    .reserved_text2{
+        visibility: visible;
+        height: 20vh;
+      
+
+    }
+    table{
+    
+        border-spacing: 20px;
+        padding-left: 50px;
+    }
+    table tr th{
+        text-align: left;
+    }
+    table tr td{
+        font-size: 14px;
+        opacity: 0.7;
+    }
+
+    .contact_container{
+        /* position: relative;
+        top: 5rem; */
+       overflow: hidden;
+       position: relative;
+       right: 3rem;
+       top: 100rem;
+        display: flex;
+        width: 100vw;
+        height: 120vh;
+        margin-bottom: 20rem;
+        overflow: visible;
+        height: 0vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        /* margin-bottom: 50px; */
+    }
+    .reserved_text{
+        width: 60vw;
+        font-size: 12px;
+        opacity: 0.6;
+    }
+    .reserved_msg{
+
+    }
+    
+    .social_plat{
+        margin-top: 150px;
+        overflow: visible;
+        display: flex;
+        position: relative;
+        left: 5rem;
+        bottom: 14rem;
+        flex-direction: column;
+        height: 50vh;
+        width: 20vw;
+        height: 40vh;
+
+    }
+    .foot_part{
+        overflow: visible;
+        display: flex;
+        height: 300vh;
+        justify-content: center;
+        margin: 0px 50px 0px;
+        padding-bottom: 200px;
+         
+    }
+    .reserved_text2{
+
+    }
+
+
+   
+}
+.reserved_text2{
+    visibility: hidden;
+}
+
+.below_circle{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.circle_text{
+    font-size: 13px;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+.learn_more_container{
+    margin-left: 20px;
+    height: 40px;
+    width: 150px;
+    padding-top: 8px;
+    border-radius: 20px;
+    background: linear-gradient(black, black) padding-box;
+    background: linear-gradient(to bottom right, green,orange ) border-box;
+}
+.direct_container{
+    background-color: black;
+    border-radius: 20px;
+    padding: 6px 27px 11px;
+
+}
+.bob_pen{
+    margin-top: 65px;
+}
+/* our platform solves problems section */
+.side_div{
+    position: relative;
+    left: 660px;
+    height: 80px;
+    width: 120px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, rgb(4, 76, 4),rgb(144, 94, 3) );
+}
+.lower_side{
+    position: relative;
+    right: 660px;
+    height: 80px;
+    width: 120px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, rgb(4, 76, 4),rgb(144, 94, 3) );
+}
+.our_platform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.first_sec_container{
+    display: flex;
+    margin-bottom: 100px;
+    gap: 100px;
+}
+.sec_sec_container{
+    display: flex;
+    gap: 100px;
+}
+.sec{
+    display: flex;
+    gap: 10px;
+}
+.num-sub{
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(4, 76, 4),rgb(144, 94, 3) );
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 12px;
+}
+.first_1{
+    margin-top: 40px;
+}
+.platform{
+    font-size: 40px;
+    margin-bottom: 28px;
+}
+.num{
+    font-size: 20px;
+}
+.num_text{
+    font-size: 13px;
+    opacity: 0.7;
+}
+.platform_text{
+    margin-bottom: 30px;
+}
+.sec_head  hr{
+    width: 170px;
+    height: 3px;
+    border: none;
+    margin-top: 5px;
+    background-image: linear-gradient(to right, rgb(4, 76, 4),rgb(144, 94, 3) );
+    -webkit-background-clip: line;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+
+/* last section that deals with the statement read what we write */
+.read_write{
+    text-align: center;
+    margin: 50px;
+}
+.lower_head{
+    margin-bottom: 20px;
+}
+.lower_text{
+    opacity: 0.7;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    grid-gap: 15px;
+    grid-template-areas: 
+            "help  startup management"
+            "help lauching lauching";
+}
+.help_execution{
+    text-align: left;
+    grid-area: help;
+    background-repeat: no-repeat;
+    background:rgba(0, 0, 0, 0.5) url(spurtx_main_img/leverage_img_1.png) ;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+}
+.build_startup{
+    grid-area: startup;
+   background:rgba(0, 0, 0, 0.5)  url(spurtx_main_img/leverage_img_2.png);
+   background-position: center;
+   background-size: cover;
+    background-blend-mode: darken;
+}
+.project_management{
+    grid-area: management;
+    background:rgba(0, 0, 0, 0.5) url(spurtx_main_img/leverage_img_3.png);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.lauching_project{
+    grid-area: lauching;
+    background:rgba(0, 0, 0, 0.5) url(spurtx_main_img/leverage_img_4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.project_tit{
+    position: relative;
+    top: 75.5vh;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.project_text{
+    position: relative;
+    top: 77vh;
+    margin-left: 20px;
+}
+.box_review{
+    position: relative;
+    top: 31vh;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 20px;
+}
+.box_review_text{
+    position: relative;
+    top: 32vh;
+    text-align: left;
+    margin-left: 20px;
+}
+.learn_box2-4{
+    position: relative;
+    top: 33vh;
+    text-align: left;
+    margin-left: 20px;
+}
+.first_box{
+    position: relative;
+    top: 78vh;
+    margin-left: 20px;
+}
+.box2-3{
+    position: relative;
+    top: 31vh;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* the footer region */
+.spurtx_logo_container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.spurtx_logo{
+    margin-left: 50px;
+}
+.spurtx_text{
+    opacity: 0.84;
+}
+img[src="spurtx_main_img/spurt_logo.svg"]{
+    margin-bottom: 20px;
+}
+
+table{
+    margin-right: 50px;
+    border-spacing: 20px;
+    padding-left: 50px;
+}
+table tr th{
+    text-align: left;
+}
+table tr td{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.contact_container{
+    position: relative;
+    top: 5rem;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.reserved_text{
+    margin-left: 50px;
+    font-size: 14px;
+    opacity: 0.84;
+}
+.reserved_text2{
+    visibility: hidden;
+}
+.social_plat{
+    display: flex;
+    overflow: visible;
+    /* height: 40vh; */
+    margin-right: 120px;
+}
+.media-table{
+    visibility: hidden;
+}
+
+.social_media{
+    overflow: visible;
+    padding-top: 0px;
+    transition-timing-function: linear;
+    transition-delay: 0.1s;
+    position: relative;
+    font-size: 23px;
+
+    overflow: hidden;
+    margin: 10px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+    transition: transform 1.2s;
+
+}
+.social_media:hover{
+    transform: translateY(-20px) ;
+}
+.foot_part{
+    overflow: hidden;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+.
