@@ -12,6 +12,26 @@ body{
     color: whitesmoke;
     align-items: center;
 }
+.nav-menu{
+    display: flex;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navi{
+    margin: 15px;
+    margin-right: 20px;
+}
+.nav-menu li a{
+    text-decoration: none;
+}
+.nav-menu li a:last-child{
+    margin-right: 30px;
+}
+
+
 /* navbar section of the page */
 .springBoard_container,.head{
     background-color: rgb(2, 20, 2);
@@ -51,6 +71,44 @@ body{
     color: whitesmoke;
    
 }
+.drop-head{
+    display: none;
+    padding: 30px;
+    /* height: 0; */
+}
+.drop-lower-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    align-items: center;
+}
+.drop-nav-menu li a{
+    text-decoration: none;
+}
+.drop-nav-menu li{
+    margin-top: 5vh;
+    width: 100%;
+}
+.drop-nav-menu li:last-child{
+    margin-bottom: 3vh;
+}
+.cancel{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    border: none;
+}
+.cancel-op{
+    border: none;
+    background-color: transparent;
+}
+.mobile-flex{
+    /* visibility: hidden; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 img[ src="spurtx_main_img/spurt_logo.svg"]{
     height: 5rem;
     width: 14rem;
@@ -64,7 +122,7 @@ img[ src="spurtx_main_img/spurt_logo.svg"]{
     height: 38px;
     position: relative;
     right: 0.5rem;
-    top: 1rem;
+    top: -0.3rem;
     text-align: center;
     width: 115px;
     margin-left: 5px;
@@ -322,7 +380,44 @@ img[alt="img_1"]{
     .toggle-img{
        font-size: 2.5rem;
        color: green;
-    }       
+    }
+    
+    .main-nav-img{
+        position: relative;
+        
+    }
+    .nav-menu{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    
+    .mobile-flex{
+        visibility: visible;
+    }
+    .mobile-flex{
+        display: flex;
+        justify-content: space-between;
+     
+    }
+    .drop-head{
+        display: block;
+        position: absolute;
+        top: 0;
+        background-color: black;
+        z-index: 999;
+        height: 100vh;
+        width: 100svw;
+        overflow: hidden;
+    }
+    img[class="drop-main-nav-img"]{
+        height: 10vhpx;
+        width: 10vwpx;
+
+    }
+    /* .cancel-op{
+        margin-right: 20px;
+    } */
     .toggle-menu{
         visibility: visible;
         position: absolute;
@@ -331,19 +426,27 @@ img[alt="img_1"]{
         background-color: transparent;
         border: none;
     }
-    .head_flex{
-        visibility: hidden;
-    }
+    /* .head_flex{
+        min-width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 0;
+        background-color: black;
+        margin: 0 auto;
+    } */
     .head_login{
-        visibility: hidden;
+      padding-right: 100px;
+        visibility: visible;
     }
     .head_logo{
         width: 45rem;
     }
     img[alt="logo_img"]{
         width: 12rem;
-
-
+        margin-right: 0;
+        padding-right: 0;
     }
     .title_sb{
         margin-left: 2.2rem;
@@ -557,6 +660,12 @@ img[alt="img_1"]{
     }
     .reserved_text2{
 
+    }
+    /* .head_flex2{
+       height: auto;
+    } */
+    main{
+        height: 0;
     }
 
 
@@ -842,4 +951,3 @@ table tr td{
     display: flex;
     flex-direction: column;
 }
-.

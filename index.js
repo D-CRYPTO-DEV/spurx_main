@@ -1,6 +1,7 @@
 toggle_btn = document.querySelector(".toggle-menu");
-flex = document.querySelector(".head_flex{");
+flex = document.querySelector(".nav-menu");
 
 toggle_btn.addEventListener("click",()=>{
-    flex.setAttribute("visibilty", "visible")
+    flex.style.transform = translate("40px");
+    flex.classList.toggle("nav-menu2");
 })
