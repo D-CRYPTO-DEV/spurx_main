@@ -412,7 +412,7 @@ img[alt="img_1"]{
     }
     .drop-head{
         transition-delay: 0.1s;
-        transition: transform 4s;
+        transition: transform 1s;
         position: relative;
         right: 100vw;
         display: block;
@@ -676,18 +676,13 @@ img[alt="img_1"]{
         padding-bottom: 200px;
          
     }
-    .reserved_text2{
-
-    }
-    /* .head_flex2{
-       height: auto;
-    } */
     .main2{
         height: 0;
     }
-
-
-   
+    .complete_body{
+        transition: transform 0.1s;
+        transition-delay: 2s;
+    }
 }
 .reserved_text2{
     visibility: hidden;
