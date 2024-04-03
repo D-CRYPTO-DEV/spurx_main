@@ -107,10 +107,9 @@ body{
     background-color: transparent;
 }
 .mobile-flex{
-    /* visibility: hidden; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 img[ src="spurtx_main_img/spurt_logo.svg"]{
     height: 5rem;
@@ -373,7 +372,7 @@ img[alt="img_1"]{
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 480px){
    body{
     box-sizing: border-box;
    }
@@ -387,21 +386,11 @@ img[alt="img_1"]{
     
     .main-nav-img{
         position: relative;
-        
     }
     .nav-menu{
         visibility: hidden;
         width: 0;
         height: 0;
-    }
-    
-    .mobile-flex{
-        visibility: visible;
-    }
-    .mobile-flex{
-        display: flex;
-        justify-content: space-between;
-     
     }
     .desktop-login{
         display: none;
@@ -947,7 +936,6 @@ table tr td{
     transition-delay: 0.1s;
     position: relative;
     font-size: 23px;
-
     overflow: hidden;
     margin: 10px;
     background-color: black;
