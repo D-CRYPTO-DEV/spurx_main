@@ -1,4 +1,5 @@
 /* complete body of the web page/ code that affect all the properties */
+@media only screen and (max-width: 480px){
 *{
     margin: 0px;
     padding: 0px;
@@ -371,308 +372,6 @@ img[alt="img_1"]{
     margin-left: 45px;
     margin-bottom: 20px;
 }
-
-@media only screen and (max-width: 480px){
-   body{
-    box-sizing: border-box;
-   }
-    .optimise_save{
-        margin: 2rem;
-    }
-    .toggle-img{
-       font-size: 2.5rem;
-       color: green;
-    }
-    
-    .main-nav-img{
-        position: relative;
-    }
-    .nav-menu{
-        visibility: hidden;
-        width: 0;
-        height: 0;
-    }
-    .desktop-login{
-        display: none;
-    }
-    .head{
-        display: flex;
-        justify-content: space-between;
-    }
-    .drop-head{
-        transition-delay: 0.1s;
-        transition: transform 1s;
-        position: relative;
-        right: 100vw;
-        display: block;
-        position: absolute;
-        top: 0;
-        background-color: black;
-        z-index: 999;
-        height: 100vh;
-        width: 100svw;
-        overflow: hidden;
-    }
-    .drop-head2{
-        transform: translate(100vw);
-    }
-    img[class="drop-main-nav-img"]{
-        height: 10vh;
-        width: 10vw;
-
-    }
-    /* .cancel-op{
-        margin-right: 20px;
-    } */
-    .toggle-menu{
-        visibility: visible;
-        position: absolute;
-        right: 2rem;
-        top: 1.9rem;
-        background-color: transparent;
-        border: none;
-    }
-    /* .head_flex{
-        min-width: 400px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 0;
-        background-color: black;
-        margin: 0 auto;
-    } */
-    .head_login{
-      padding-right: 100px;
-        visibility: visible;
-    }
-    .head_logo{
-        width: 45rem;
-    }
-    
-    img[alt="logo_img"]{
-        width: 12rem;
-        margin-right: 0;
-        padding-right: 0;
-    }
-    .title_sb{
-        margin-left: 2.2rem;
-        justify-content: center;
-        font-size: 28px;
-        width: 100%;
-    }
-    .springBoard_subsec{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 5rem;
-    }
-    .springBoard_subsec_btn{
-        margin-right: 5rem;
-    }
-    .map{
-        visibility: hidden;
-        height: 0;
-        width: 0;
-    }
-    .africa_text{
-        font-size: 15px;
-    }
-    .busi_emp_int_logos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-    }
-    .find_talents{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        margin-bottom: 2rem;
-    }
-    .find_talents2{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    img[alt="img_1"]{
-        width: 80vw;
-        height: 40vh;
-        border-radius: 2.5rem;
-    }
-    .title_sub{
-        margin-bottom: -2rem;
-    }
-    .demo_btn{
-        position: relative;
-        right: 6rem;
-    }
-    .btn{
-        border-radius: 20rem;
-    }
-    .embrace_flex_container{
-        width: 250vw;
-        overflow-x: scroll;
-    }
-    .page-line{
-        visibility: hidden ;
-    }
-    .first_sec_container, .sec_sec_container{
-        display: flex;
-        flex-direction: column;
-    }
-    .grid_container{
-        grid-gap: 2px;
-        grid-template-columns: auto auto;
-        grid-template-rows: 100px 100px;
-        grid-template-areas:
-                "help startup"
-                "management lauching";
-    }
-    .help_execution{
-       grid-area: help;
-    }
-    .build_startup{
-        grid-area: startup;
-    }
-    .project_management{
-        grid-area: management;
-    }
-    .lauching_project{
-        grid-area: lauching;
-
-    } 
-    .read_write{
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* justify-content: center; */
-        margin: 10px;
-    }
-    .foot_part{
-        overflow: visible;
-    }
-
-    .spurtx_logo_container{
-        overflow: visible;
-        position: relative;
-        right: 2rem;
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .spurtx_logo_text{
-        overflow: visible;
-        width: 100%;
-        position: relative;
-        right: 2rem;
-        display: flex;
-        flex-direction: row;
-        font-size: 0.8rem;
-    }
-    
-    .spurtx_text{
-        opacity: 0.84;
-        margin-right: 4rem;
-        font-size: 0.6rem;
-        text-align: center;
-    }
-    img[src="spurtx_main_img/spurt_logo.svg"]{
-        position: relative;
-        left: 1.5rem;
-        margin-bottom: 20px;
-        width: 15rem;
-        display: block;
-       align-self: center;
-    }
-    .media-table{
-        visibility: visible;
-    }
-    .reserved_text{
-        visibility: hidden;
-    }
-    .reserved_text2{
-        visibility: visible;
-        height: 20vh;
-      
-
-    }
-    table{
-    
-        border-spacing: 20px;
-        padding-left: 50px;
-    }
-    table tr th{
-        text-align: left;
-    }
-    table tr td{
-        font-size: 14px;
-        opacity: 0.7;
-    }
-
-    .contact_container{
-        /* position: relative;
-        top: 5rem; */
-       overflow: hidden;
-       position: relative;
-       right: 3rem;
-       top: 100rem;
-        display: flex;
-        width: 100vw;
-        height: 120vh;
-        margin-bottom: 20rem;
-        overflow: visible;
-        height: 0vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
-        /* margin-bottom: 50px; */
-    }
-    .reserved_text{
-        width: 60vw;
-        font-size: 12px;
-        opacity: 0.6;
-    }
-    .reserved_msg{
-
-    }
-    
-    .social_plat{
-        margin-top: 150px;
-        overflow: visible;
-        display: flex;
-        position: relative;
-        left: 5rem;
-        bottom: 14rem;
-        flex-direction: column;
-        height: 50vh;
-        width: 20vw;
-        height: 40vh;
-
-    }
-    .foot_part{
-        overflow: visible;
-        display: flex;
-        height: 300vh;
-        justify-content: center;
-        margin: 0px 50px 0px;
-        padding-bottom: 200px;
-         
-    }
-    .main2{
-        height: 0;
-    }
-    .complete_body{
-        transition: transform 0.1s;
-        transition-delay: 2s;
-    }
-}
 .reserved_text2{
     visibility: hidden;
 }
@@ -888,28 +587,12 @@ img[alt="img_1"]{
 img[src="spurtx_main_img/spurt_logo.svg"]{
     margin-bottom: 20px;
 }
-
-table{
-    margin-right: 50px;
-    border-spacing: 20px;
-    padding-left: 50px;
-}
-table tr th{
-    text-align: left;
-}
-table tr td{
-    font-size: 14px;
-    opacity: 0.7;
-}
 .contact_container{
-    position: relative;
-    top: 5rem;
     height: 12vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
-    margin-bottom: 20px;
 }
 .reserved_text{
     margin-left: 50px;
@@ -921,14 +604,18 @@ table tr td{
 }
 .social_plat{
     display: flex;
+    align-items: center;
     overflow: visible;
-    /* height: 40vh; */
     margin-right: 120px;
 }
 .media-table{
     visibility: hidden;
 }
-
+.social-handle{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
 .social_media{
     overflow: visible;
     padding-top: 0px;
@@ -948,7 +635,357 @@ table tr td{
 }
 .foot_part{
     overflow: hidden;
-    height: 85vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
 }
+.spurtx_logo_container{
+    display: flex;
+    justify-content: space-between;
+}
+.list-container{
+    display: flex;
+    column-gap: 90px;
+    margin-right: 20px;
+   
+}
+.list-container li{
+    font-size: 14px;
+    margin: 20px 0px;
+    opacity: 0.7;
+}
+.list-container h3{
+    font-size: 17px;
+}
+.mobile-table{
+    display: none;
+}
+}
+
+/* mediaquery */
+
+body{
+    background-color: black;
+    color: whitesmoke;
+    align-items: center;
+}
+    body{
+     box-sizing: border-box;
+    }
+    .optimise_save{
+         margin: 2rem;
+    }
+    .toggle-img{
+        font-size: 2.5rem;
+        color: green;
+    }
+     
+    .main-nav-img{
+         position: relative;
+    }
+    .nav-menu{
+         visibility: hidden;
+         width: 0;
+         height: 0;
+    }
+    .desktop-login{
+         display: none;
+    }
+    .head{
+         display: flex;
+        justify-content: space-between;
+    }
+    .drop-head{
+         transition-delay: 0.1s;
+         transition: transform 1s;
+         position: relative;
+         right: 100vw;
+         display: block;
+         position: absolute;
+         top: 0;
+         background-color: black;
+         z-index: 999;
+         height: 100vh;
+         width: 100svw;
+         overflow: hidden;
+    }
+    .drop-head2{
+         transform: translate(100vw);
+    }
+    img[class="drop-main-nav-img"]{
+         height: 10vh;
+         width: 10vw;
+    }
+     /* .cancel-op{
+         margin-right: 20px;
+     } */
+    .toggle-menu{
+         visibility: visible;
+         position: absolute;
+         right: 2rem;
+         top: 1.9rem;
+         background-color: transparent;
+         border: none;
+    }
+     /* .head_flex{
+         min-width: 400px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         height: 0;
+         background-color: black;
+         margin: 0 auto;
+     } */
+    .head_login{
+       padding-right: 100px;
+         visibility: visible;
+    }
+    .head_logo{
+         width: 45rem;
+    }
+     
+    img[alt="logo_img"]{
+         width: 12rem;
+         margin-right: 0;
+         padding-right: 0;
+    }
+    .title_sb{
+         margin-left: 2.2rem;
+         justify-content: center;
+         font-size: 28px;
+         width: 100%;
+    }
+    .springBoard_subsec{
+         width: 100vw;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-bottom: 5rem;
+    }
+    .springBoard_subsec_btn{
+         margin-right: 5rem;
+    }
+    .map{
+         visibility: hidden;
+         height: 0;
+         width: 0;
+    }
+    .africa_text{
+         font-size: 15px;
+    }
+    .busi_emp_int_logos{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 2rem;
+    }
+    .find_talents{
+         display: flex;
+         flex-direction: column;
+         gap: 2rem;
+         margin-bottom: 2rem;
+    }
+    .find_talents2{
+         display: flex;
+         flex-direction: column-reverse;
+    }
+    img[alt="img_1"]{
+         width: 80vw;
+         height: 40vh;
+         border-radius: 2.5rem;
+    }
+    .title_sub{
+         margin-bottom: -2rem;
+    }
+    .demo_btn{
+         position: relative;
+         right: 6rem;
+    }
+    .btn{
+         border-radius: 20rem;
+    }
+    .embrace_flex_container{
+         width: 250vw;
+         overflow-y: scroll;
+    }
+    .page-line{
+         visibility: hidden ;
+    }
+    .first_sec_container, .sec_sec_container{
+         display: flex;
+         flex-direction: column;
+    }
+    .grid_container{
+         grid-gap: 2px;
+         grid-template-columns: auto auto;
+         grid-template-rows: 200px 200px;
+         gap: 10px;
+         grid-template-areas:
+                 "help startup"
+                 "management lauching";
+    }
+    .help_execution{
+        grid-area: help;
+    }
+    .build_startup{
+         grid-area: startup;
+    }
+    .project_management{
+         grid-area: management;
+    }
+    .lauching_project{
+         grid-area: lauching;
+ 
+    } 
+    .read_write{
+         /* display: flex; */
+         /* flex-direction: column; */
+         /* justify-content: center; */
+         margin: 10px;
+    }
+    
+ 
+    .spurtx_logo_container{
+         margin-left: 0;
+         margin-right: 0;
+         margin-top: 50px;
+    }
+    .spurtx_logo_text{
+         position: relative;
+         right: 2rem;
+         display: flex;
+         flex-direction: row;
+         font-size: 0.8rem;
+    }
+     
+    .spurtx_text{
+         opacity: 0.84;
+         margin-right: 4rem;
+         font-size: 0.8rem;
+         text-align: center;
+     }
+    img[src="spurtx_main_img/spurt_logo.svg"]{
+         /* position: relative;
+         left: 1.5rem; */
+         margin-bottom: 20px;
+         width: 15rem;
+         display: block;
+        align-self: center;
+     }
+    .media-table{
+         visibility: visible;
+     }
+    .reserved_text{
+         visibility: hidden;
+     }
+    .reserved_text2{
+         visibility: visible;
+         height: 20vh;
+    }
+    .contact_container{
+         display: flex;
+         flex-direction: column-reverse;
+         align-items: center;
+         justify-content: center;
+         /* margin: 50px; */
+         height: 30vh;
+         gap: 20px;
+        width: 100%
+         /* margin-bottom: 50px; */
+    }
+    .reserved_text{
+        visibility: visible;
+         font-size: 20px;
+         opacity: 0.6;
+    }
+     .social_plat{
+        align-items: flex-start;
+        margin-top: 15px;
+        padding-top: 0;
+         display: flex;
+         /* position: relative;
+         left: 5rem;
+         bottom: 14rem; */
+         flex-direction: row;
+         width: 100%;
+         height: 20vh;
+         justify-content: space-between;
+
+ 
+    }
+    .social-handle{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        justify-content: space-around;
+    }
+   
+     .main2{
+         height: 0;
+    }
+    .complete_body{
+         transition: transform 0.1s;
+         transition-delay: 2s;
+    }
+    .mobile-table{
+        display: block;
+    }
+    .social_plat{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        /* margin-left: 6rem; */
+        /* gap: 20rem; */
+    }
+    .foot_part{
+        height: 100vh;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .spurtx_logo_container{
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .list-container{
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: first baseline;
+        gap: 100px;
+        
+    }
+    .more-list{
+        display: none;
+    }
+    .foot_part li{
+        list-style-type: none;
+        width: 100%
+    }
+    .body-hidder{
+        height: 100vh;
+        overflow: hidden;
+    }
+    .reserved_msg{
+        /* display: block; */
+        position: relative;
+        bottom: 15px;
+        font-size: 20px;
+    }
+    .Quick-list li{
+        text-align: start;
+        text-align: none;
+    }
+}
+
