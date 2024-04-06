@@ -1,5 +1,5 @@
 /* complete body of the web page/ code that affect all the properties */
-@media only screen and (max-width: 480px){
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +9,7 @@
 
 }
 body{
+    overflow-x: hidden;
     background-color: black;
     color: whitesmoke;
     align-items: center;
@@ -246,8 +247,8 @@ img[ src="spurtx_main_img/home_hero_section.svg"]{
 /* section 2 optimise section */
 .great_talent{
     margin-top: 120px;
+    height: 170px;
     text-align: center;
-    
 }
 .optimise_title{
     font-size: 28px;
@@ -595,7 +596,7 @@ img[src="spurtx_main_img/spurt_logo.svg"]{
     margin-top: 50px;
 }
 .reserved_text{
-    margin-left: 50px;
+    /* margin-left: 50px; */
     font-size: 14px;
     opacity: 0.84;
 }
@@ -604,9 +605,10 @@ img[src="spurtx_main_img/spurt_logo.svg"]{
 }
 .social_plat{
     display: flex;
-    align-items: center;
-    overflow: visible;
-    margin-right: 120px;
+    align-items: last baseline;
+    overflow: hidden;
+    justify-content: center;
+    /* margin-right: 120px; */
 }
 .media-table{
     visibility: hidden;
@@ -615,16 +617,17 @@ img[src="spurtx_main_img/spurt_logo.svg"]{
     height: 12vh;
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .social_media{
-    overflow: visible;
-    padding-top: 0px;
+    /* overflow: visible; */
+    /* padding-top: 0px; */
     transition-timing-function: linear;
     transition-delay: 0.1s;
     position: relative;
     font-size: 23px;
     overflow: hidden;
-    margin: 10px;
+    /* margin: 10px; */
     background-color: black;
     color: rgba(255, 255, 255, 0.5);
     transition: transform 1.2s;
@@ -646,7 +649,7 @@ img[src="spurtx_main_img/spurt_logo.svg"]{
 .list-container{
     display: flex;
     column-gap: 90px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
    
 }
 .list-container li{
@@ -660,14 +663,15 @@ img[src="spurtx_main_img/spurt_logo.svg"]{
 .mobile-table{
     display: none;
 }
-}
+
 
 /* mediaquery */
-
+@media only screen and (max-width: 480px){
 body{
     background-color: black;
     color: whitesmoke;
     align-items: center;
+    overflow-x: hidden;
 }
     body{
      box-sizing: border-box;
@@ -726,6 +730,12 @@ body{
          top: 1.9rem;
          background-color: transparent;
          border: none;
+    }
+    .designer{
+        font-size: 12px;
+        opacity: 0.6;
+        font-weight: lighter;
+        font-family: fantasy;
     }
      /* .head_flex{
          min-width: 400px;
@@ -809,7 +819,8 @@ body{
     }
     .embrace_flex_container{
          width: 250vw;
-         overflow-y: scroll;
+         overflow-x: scroll;
+         position: relative;
     }
     .page-line{
          visibility: hidden ;
@@ -886,19 +897,20 @@ body{
          height: 20vh;
     }
     .contact_container{
-         display: flex;
-         flex-direction: column-reverse;
-         align-items: center;
-         justify-content: center;
-         /* margin: 50px; */
-         height: 30vh;
-         gap: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        /* margin: 50px; */
+        height: 30vh;
+        gap: 20px;
         width: 100%
-         /* margin-bottom: 50px; */
+        
+        /* margin-bottom: 50px; */
     }
     .reserved_text{
         visibility: visible;
-         font-size: 20px;
+         font-size: 15px;
          opacity: 0.6;
     }
      .social_plat{
@@ -913,8 +925,6 @@ body{
          width: 100%;
          height: 20vh;
          justify-content: space-between;
-
- 
     }
     .social-handle{
         display: flex;
@@ -981,11 +991,10 @@ body{
         /* display: block; */
         position: relative;
         bottom: 15px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .Quick-list li{
         text-align: start;
         text-align: none;
     }
 }
-
